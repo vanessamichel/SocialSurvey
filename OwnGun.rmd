@@ -60,6 +60,14 @@ barchartGC(polviews_table,type="percent")
 
 It appears that there is a relationship seen between a person's political view and whether or not one own's a gun. Conservatives are more likely to own a gun. Liberals are much less likely to own a gun. Moderate people are in the middle, where about half of them are gun owners. 
 
+##### Gun ownership vs. Opinion on Capitol Punishment
+```{r}
+cappun_table=xtabs(~cappun + owngun, data=n2014,exclude = "NA")
+barchartGC(cappun_table,type="percent")
+```
+
+There appears to be a strong relationship between a person's view on capitol punishment and gun ownership. Those who favor capitol punishment are much more likely to own a gun than those who oppose it. 
+
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
