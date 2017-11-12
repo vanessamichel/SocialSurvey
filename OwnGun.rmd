@@ -180,3 +180,15 @@ The P-Value is 0.9739. This means that the probability of getting sample like th
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variables causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+After viewing the results graphically, numerically, and running chi-square tests on the data, we can conclude the following:  
+
+* Race and gun ownership are related. The **WHITE** group is more likely to own a gun and the **BLACK** and **OTHER** group are less likely to own a gun.  
+* Sex and gun ownership are related. The **MALE** group is more likely to own a gun, and the **FEMALE** group is less likely to own a gun.  
+* Political view and gun ownership are related. **CONSERVATIVES** are much more likely to own a gun than **MODERATE** or **LIBERALS**. **LIBERALS** are the least likely to own a gun.  
+* Belief in God and gun ownership are not related. All groups were just as likely or not as likely to own a gun than any other group.  
+
+If we were to make a profile of those who own a gun, we might say that they would likely be *White*, *Conservative*, *Males*, who favor Capitol Punishment.  
+
+If we were to make a profile for those who do not own a gun, we might say that they would be *Black* or *Other*, *Liberal*, *Females*, who oppose Capitol Punishment.
+
+So, withouth taking any other variables into account, it appears that there is a relationship between race, sex, political view and view on capitol punishment when compared to whether or not one owns a gun.
