@@ -130,7 +130,7 @@ After viewing the data numerically, it appears there is no relationship between 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 Looking at the graphical and numerical results alone is not enough to tell us whether our results will also apply to the population at large. To do this, we will run a chi-square test. 
 
-We will now need to run 4 chi-square tests. We will run each test with the assumption that there is no relationship between gun ownership and the other variable in question: race, sex, political view, oppinion on capitol punishment and belief in god. 
+We will now need to run 5 chi-square tests. We will run each test with the assumption that there is no relationship between gun ownership and the other variable in question: race, sex, political view, oppinion on capitol punishment and belief in god. 
 
 ##### **Gun ownership vs. Race chi-square test:**  
 Let us begin by forming our two hypotheses:  
@@ -167,6 +167,15 @@ We will form our two hypotheses:
 chisqtestGC(cappun_table)
 ```
 Our P-Value is 0. The chances of getting such a result are quite small if the null hypothesis is true. Therefore, we will choose to reject the null hypothesis. It appears that opinion on capitol punishment and gun ownership are related.
+
+##### **Gun ownership vs. Belief in God chi-square test:**  
+We will form our two hypotheses:  
+* \(H_0\) There is no relationship between gun ownership and belief in god.   
+* \(H_a\) There is a relationship between gun ownership and belief in god.  
+```{r}
+chisqtestGC(god_table)
+```
+The P-Value is 0.9739. This means that the probability of getting sample like this under conditions when the null hypothesis is true, is about 97%. Therefore, we accept the null hypothesis is true and conclude that there is no relationship between belief in god and gun ownership. 
 
 # Discussion and Conclusion
 
