@@ -68,6 +68,14 @@ barchartGC(cappun_table,type="percent")
 
 There appears to be a strong relationship between a person's view on capitol punishment and gun ownership. Those who favor capitol punishment are much more likely to own a gun than those who oppose it. 
 
+##### Gun ownership vs. Belief in god
+```{r}
+god_table=xtabs(~god + owngun, data=n2014,exclude = "NA")
+barchartGC(god_table,type="percent")
+```
+
+There appears to be no relationship between whether or not a person believes in god and whether or not they own a gun. In each category it seems about half the people belonging in that group own a gun. The other half do not. 
+
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
