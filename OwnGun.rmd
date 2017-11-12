@@ -25,7 +25,7 @@ Is there a relationship between gun ownership and a person's race, sex, politica
 # Methods
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
-We will be using the folloiwng methods: two way tables, bar charts and a chi-squared test. We will use these to analyze the following factor variables: whether or not someone owns a gun, a person's race, sex, political views, opinion on capitol punishment and beilef in god.
+We will be using the folloiwng methods: bar charts, two-way tables and a chi-squared test. We will use these to analyze the following factor variables: whether or not someone owns a gun, a person's race, sex, political views, opinion on capitol punishment and beilef in god.
 
 #Results
 
@@ -79,6 +79,8 @@ There appears to be no relationship between whether or not a person believes in 
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+To view the results of our data numerically, we will use a two-way table with row percents. 
 
 # Inferential Results
 
