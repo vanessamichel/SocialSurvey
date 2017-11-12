@@ -141,6 +141,15 @@ chisqtestGC(race_table)
 ```
 Our P-Value is 0. This means that the probability of getting a sample like this under conditions when the null hypothesis is true, is 0%. This is below our threshold of 0.05%. Since the P-Value is too low, we will reject the null hypothesis and conclude that there is a relationship between race and gun ownership.
 
+##### **Gun ownership vs. Sex chi-square test:**  
+We will form our two hypotheses:  
+* \(H_0\) There is no relationship between gun ownership and sex.   
+* \(H_a\) There is a relationship between gun ownership and sex.   
+```{r}
+chisqtestGC(sex_table)
+```
+Our P-Value is 0. Our chances of getting these results are extremely small if the null hypothesis is true. Therefore, we will choose to reject the null hypothesis. There is a relationship between gun ownership and sex. 
+
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variables causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
