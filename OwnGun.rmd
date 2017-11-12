@@ -112,7 +112,9 @@ After viewing the data numerically, it appears that for the **Liberal** and **Mo
 ```{r}
 rowPerc(cappun_table)
 ```
-
+Of those in the **FAVOR** group, 41.44% own a gun, 58.56% do not.  
+Of those in the **OPPOSE** group, 20.58% own a gun, 79.42% do not.  
+After viewing the data numerically, it appears that those in the **Favor** group are much more likely to own a gun than the other group. Those in the **Oppose** group are more likely to not own a gun. 
 
 ##### **Gun ownership vs. Belief in god Two-way Table:**
 ```{r}
