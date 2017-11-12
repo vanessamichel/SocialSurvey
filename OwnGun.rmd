@@ -150,6 +150,15 @@ chisqtestGC(sex_table)
 ```
 Our P-Value is 0. Our chances of getting these results are extremely small if the null hypothesis is true. Therefore, we will choose to reject the null hypothesis. There is a relationship between gun ownership and sex. 
 
+##### **Gun ownership vs. Political View chi-square test:**  
+We will form our two hypotheses:  
+* \(H_0\) There is no relationship between gun ownership and political view.     
+* \(H_a\) There is a relationship between gun ownership and political view.   
+```{r}
+chisqtestGC(polviews_table)
+```
+Our P-Value is 0. The chances of getting such a result are quite small if the null hypothesis is true. Therefore, we will choose to reject the null hypothesis. It appears that political view and gun ownership are related.
+
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variables causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
