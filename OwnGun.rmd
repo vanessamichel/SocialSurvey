@@ -95,7 +95,9 @@ After viewing the data numerically, it appears that a higher percentage of **Whi
 ```{r}
 rowPerc(sex_table)
 ```
-
+Of those in the **MALE** group, 39.76% own a gun, 60.24% do not.  
+Of those in the **FEMALE** group, 27.32% own a gun, 72.68% do not.  
+After viewing the data numerically, it appears that a higher percentage of **Male** participants own a gun as opposed to the **Female** participants.
 
 ##### **Gun ownership vs. Political View Two-way Table:**
 ```{r}
