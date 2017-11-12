@@ -25,6 +25,7 @@ Is there a relationship between belief in the Big Bang Theory with race, educati
 # Methods
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
+We will be using the folloiwng methods: two way tables, bar charts and a chi-squared test. We will use these to analyze the following factor variables: whether or not someone believes in the Big Bang Theory, a person's race, sec, education level and belief in god.
 
 #Results
 
