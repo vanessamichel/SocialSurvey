@@ -36,7 +36,7 @@ We will be using the folloiwng methods: two way tables, bar charts and a chi-squ
 ### Graphical Descriptive Results
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
-##### Gun ownership vs. Race Barchart
+##### **Gun ownership vs. Race Barchart**
 ```{r}
 race_table=xtabs(~race + owngun, data=n2014,exclude = "NA")
 barchartGC(race_table,type="percent")
@@ -44,7 +44,7 @@ barchartGC(race_table,type="percent")
 
 After viewing the data graphically, it appears that there are more White gun owners than there are Black or "Other" gun owners. 
 
-##### Gun ownership vs. Sex Barchart
+##### **Gun ownership vs. Sex Barchart**
 ```{r}
 sex_table=xtabs(~sex + owngun, data=n2014,exclude = "NA")
 barchartGC(sex_table,type="percent")
@@ -52,7 +52,7 @@ barchartGC(sex_table,type="percent")
 
 It appears that there is a relationship between sex and gun ownership. Males seem to be more likely to own a gun than females are. 
 
-##### Gun onership vs. Political Views Barchart
+##### **Gun onership vs. Political Views Barchart**
 ```{r}
 polviews_table=xtabs(~polviews + owngun, data=n2014,exclude = "NA")
 barchartGC(polviews_table,type="percent")
@@ -60,7 +60,7 @@ barchartGC(polviews_table,type="percent")
 
 It appears that there is a relationship seen between a person's political view and whether or not one own's a gun. Conservatives are more likely to own a gun. Liberals are much less likely to own a gun. Moderate people are in the middle, where about half of them are gun owners. 
 
-##### Gun ownership vs. Opinion on Capitol Punishment
+##### **Gun ownership vs. Opinion on Capitol Punishment Barchart**
 ```{r}
 cappun_table=xtabs(~cappun + owngun, data=n2014,exclude = "NA")
 barchartGC(cappun_table,type="percent")
@@ -68,7 +68,7 @@ barchartGC(cappun_table,type="percent")
 
 There appears to be a strong relationship between a person's view on capitol punishment and gun ownership. Those who favor capitol punishment are much more likely to own a gun than those who oppose it. 
 
-##### Gun ownership vs. Belief in god
+##### **Gun ownership vs. Belief in god Barchart**
 ```{r}
 god_table=xtabs(~god + owngun, data=n2014,exclude = "NA")
 barchartGC(god_table,type="percent")
