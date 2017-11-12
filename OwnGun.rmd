@@ -120,6 +120,10 @@ After viewing the data numerically, it appears that those in the **Favor** group
 ```{r}
 rowPerc(god_table)
 ```
+Of those in the **no** group, 32.46% own a gun, 67.54% do not.  
+Of those in the **maybe** group, 33.33% own a gun, 66.67% do not.  
+Of those in the **yes** group, 33.05% own a gun, 66.95% do not.  
+After viewing the data numerically, it appears there is no relationship between whether or not one believes in god and whether one owns a gun. About a third of all groups own a gun and two-thirds of each group do not. 
 
 # Inferential Results
 
