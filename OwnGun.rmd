@@ -103,7 +103,10 @@ After viewing the data numerically, it appears that a higher percentage of **Mal
 ```{r}
 rowPerc(polviews_table)
 ```
-
+Of those in the **LIBERAL** group, 24.52% own a gun, 75.48% do not.  
+Of those in the **MODERATE** group, 33.20% own a gun, 66.80% do not.  
+Of those in the **CONSERVATIVE** group, 42.17% own a gun, 57.83% do not.  
+After viewing the data numerically, it appears that for the **Liberal** and **Moderate** group, a majority do not own a gun. For the **Conseravative** group, a much higher percentage, almost half, owns a gun.
 
 ##### **Gun ownership vs. Opinion on Capitol Punishment Two-way Table:**
 ```{r}
